@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SPH0641LU4H-1
+#
+DEF SPH0641LU4H-1 M 0 40 Y Y 1 L N
+F0 "M" -351 371 50 H V L BNN
+F1 "SPH0641LU4H-1" 0 -300 39 H V L BNN
+F2 "MIC_SPH0641LU4H-1" 150 -50 50 H I L BNN
+F3 "MAPBGA-400 NXP Semiconductors" 150 -50 50 H I L BNN
+F4 "SPH0641LU4H-1" 150 -50 50 H I L BNN
+F5 "423-1402-1-ND" 150 -50 50 H I L BNN
+F6 "Knowles" 150 -50 50 H I L BNN
+F7 "Mic Mems Digital Pdm Omni -26db" 150 -50 50 H I L BNN
+F8 "https://www.digikey.com/product-detail/en/knowles/SPH0641LU4H-1/423-1402-1-ND/5332430?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 150 -50 50 H I L BNN
+DRAW
+C 250 50 112 1 1 0 F
+C 250 50 141 1 1 12 N
+S -250 300 450 -200 1 1 0 f
+P 2 1 1 12 400 200 400 -100 N
+X DATA 1 -450 50 200 R 40 40 0 0 O
+X SEL 2 -450 -100 200 R 40 40 0 0 I
+X GND 3 0 -400 200 U 40 40 0 0 W
+X CLK 4 -450 200 200 R 40 40 0 0 I C
+X VDD 5 0 500 200 D 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library
