@@ -711,7 +711,7 @@
       "plot": "FAB",
       "pos_files": "FAB/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "controller.step",
       "svg": "",
       "vrml": ""
     },

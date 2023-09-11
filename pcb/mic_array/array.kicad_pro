@@ -500,7 +500,7 @@
       "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "array.step",
+      "step": "../../3D/array.step",
       "svg": "",
       "vrml": ""
     },
