@@ -1,4 +1,5 @@
 # Open source acoustic camera
+Modular open-source microphone array for the development of acoustic camera, direction of arrival and beamforming algorithm exploration
 
 ## Microphone Array
 ### Array, bottom view
