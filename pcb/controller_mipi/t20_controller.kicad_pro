@@ -3,6 +3,9 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -169,6 +172,32 @@
         }
       ],
       "track_widths": [],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
@@ -498,6 +527,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -556,18 +586,6 @@
     [
       "936f772b-9d8d-4617-ad0d-5509cd4707a9",
       "MIC_ARRAY"
-    ],
-    [
-      "47bce691-8590-4d99-af80-2e56de2fd42a",
-      "USB3"
-    ],
-    [
-      "f7cb0f5e-e21e-43c2-81b8-00fd88f6e4d7",
-      "FPGA_USB3"
-    ],
-    [
-      "894510b8-8bb5-4313-8638-07327ab8295d",
-      "CV"
     ]
   ],
   "text_variables": {}
